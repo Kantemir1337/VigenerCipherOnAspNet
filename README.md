@@ -2,7 +2,7 @@
 Данный проект был создан для "NowYouSeeSharp" в качестве курсового проекта исключительно в учебных целях.  
 Представляет собой декодер, в основе которого лежит шифр Виженера.
 
-На данный момент включает следующие функции:
+На данный момент включает следующие функции(в дальнейшем планируется расширить функциональность данного приложения):
   1. Шифрование сообщения, введенного пользователем, с помощью алгоритма Виженера, используя ключ;
   2. Дешифрование зашифрованного сообщения с помощью алгоритма Виженера, используя ключ.
 
@@ -22,7 +22,7 @@
  
 This project was created for "NowYouSeeSharp" as a course project exclusively for educational purposes. It is a Vigenere cipher decoder.
 
-Currently includes the following features:
+Currently includes the following features(in the future it is planned to expand the functionality of this application):
   1. Encryption of the message entered by the user using the Vigenere algorithm using the key;
   2. Decryption of the encrypted message using the Vigenere algorithm using the key.
   
