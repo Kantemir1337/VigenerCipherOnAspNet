@@ -1,5 +1,5 @@
 # VigenerCipherOnAspNet
-Данный проект был создан для "NowYouSeeSharp" в качестве курсового проекта.  
+Данный проект был создан для "NowYouSeeSharp" в качестве курсового проекта исключительно в учебных целях.  
 Представляет собой декодер, в основе которого лежит шифр Виженера.
 
 На данный момент включает следующие функции:
@@ -20,7 +20,7 @@
  
 ------------------------------------------------------------------------------------------------------------------------------------ 
  
-This project was created for "NowYouSeeSharp" as a course project. It is a Vigenere cipher decoder.
+This project was created for "NowYouSeeSharp" as a course project exclusively for educational purposes. It is a Vigenere cipher decoder.
 
 Currently includes the following features:
   1. Encryption of the message entered by the user using the Vigenere algorithm using the key;
