@@ -1,0 +1,57 @@
+﻿@using Vigener_Cipher.Models;
+@model VigenerViewModel;
+
+@{
+    ViewData["Title"] = "Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Result</h1>
+<blockquote class="blockquote">
+    <p class="mb-0">
+        @if (Model.isEncypting)
+        {
+            @Model.EncryptedText
+        }
+        else
+        {
+            @Model.DecryptedText
+        }
+    </p>
+    <footer class="blockquote-footer" id="download-btn-footer">
+        <div class="file-download" id="download-btn">
+            <form method="get" asp-controller="Crypto" asp-action="ResultDownload">
+               <!-- <a type="text/plain" role="button" class="btn block btn-download btn-primary btn-block bg-primary" href="" download="TextResult.txt">Download</a> -->
+            </form>
+            <script>
+                setTimeout(pop_out);
+
+                function pop_out() {
+                    $("#download-btn-footer").hide();
+                    $("#download-btn-footer").delay(1000).fadeIn(2000);
+                }
+            </script>
+        </div>
+    </footer>
+</blockquote>
+
+<style>
+    .block {
+        box-sizing: border-box;
+        display: block;
+        max-width: 100%;
+        line-height: 1.5;
+        border-radius: 3px;
+        border: 1px solid #2b2b2b;
+    }
+
+    .file-download {
+        display: block;
+    }
+
+    .btn-download {
+        width: 40%;
+        vertical-align: middle;
+        margin: auto;
+    }
+</style>
